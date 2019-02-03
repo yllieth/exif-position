@@ -1,0 +1,25 @@
+{
+  "name": "exif-position",
+  "version": "1.0.0",
+  "description": "Node script to list jpeg images and their position",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "exif",
+    "gps",
+    "latitude",
+    "longitude"
+  ],
+  "author": "Sylvain RAGOT <sylvnimes@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "is-jpg": "^2.0.0",
+    "jpg-stream": "^1.1.2",
+    "read-chunk": "^3.0.0",
+    "recursive-readdir": "^2.2.2"
+  }
+}
